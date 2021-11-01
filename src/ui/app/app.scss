@@ -1,0 +1,17 @@
+@use "sass:math";
+
+$scroller-width: 6px;
+::-webkit-scrollbar {
+  width: $scroller-width;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  border-radius: math.div($scroller-width, 2);
+  background-color: rgba(90 90 90 / 50%);
+}
+
+h3 {
+  font-size: 35px;
+  padding: 10px;
+}

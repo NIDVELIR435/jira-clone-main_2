@@ -1,0 +1,11 @@
+.tasks-board-wrapper {
+  height: 50%;
+  overflow: hidden;
+}
+
+.tasks-board {
+  height: 85%;
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+}
